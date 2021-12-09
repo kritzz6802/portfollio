@@ -1,0 +1,484 @@
+body {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-family    : 'Merriweather Sans', sans-serif;
+
+    .project {
+        display         : flex;
+        height          : 40rem;
+        width           : 55rem;
+        background-color: rgb(231, 231, 250);
+        border-radius   : 2rem;
+        overflow        : visible;
+        align-items     : center;
+        flex-wrap       : wrap;
+
+        .projectop {
+            height        : 78%;
+            transform     : translate(0, -9px);
+            letter-spacing: 0vh;
+          
+            .proheading {
+                height     : 50%;
+                overflow   : hidden;
+                transform     : translate(30px, 12px);
+                font-family: Arial, Helvetica, sans-serif;
+                width      : 80%;
+                margin     : -10px;
+
+                .h3class1 {
+                    font-weight: bolder;
+                    font-size  : 130%;
+                    display    : inline;
+                    float      : left;
+                }
+
+                .h3class2 {
+                    display: inline;
+                    float  : right;
+                }
+            }
+        }
+
+        .projectInfo {
+            display        : flex;
+            transform      : translate(1.99rem, -7.55rem);
+            width          : 24rem;
+            justify-content: space-evenly;
+            font-size: 13px;
+            height: 20%;
+            .state {
+                color: rgb(126, 122, 122);
+            }
+
+            .statelogo {
+                display        : flex;
+                transform      : translate(7.09rem, -1.55rem);
+                justify-content: space-evenly;
+            }
+        }
+
+        .fx-1 {
+            width           : 100%;
+            height          : 5%;
+            background-color: transparent;
+            position        : inherit;
+            top             : 0%;
+            right           : 0%;
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+
+            .maintag {
+                width          : 100%;
+                height         : 50%;
+                position       : relative;
+                top            : 50%;
+                display        : flex;
+                justify-content: space-between;
+
+                .menu {
+                    position: relative;
+                    left    : 4%;
+
+                }
+
+                .portfolio {
+                    font-size  : 160%;
+                    font-weight: bold;
+                }
+
+                input {
+                    border       : none;
+                    height       : 30px;
+                    width        : 240px;
+                    left         : 10px;
+                    border-radius: 15px;
+                    position     : inherit;
+                    left         : -10px;
+                    top          : -10%;
+                }
+
+                input::placeholder {
+                    font-size: 13px;
+                    transform: translate(13px, 0);
+                }
+
+                .circle {
+                    position: inherit;
+                    right   : -100px;
+                    top     : -10%;
+                }
+
+                .ghanti {
+                    position: inherit;
+                    right   : -40px;
+                    top     : -10%;
+                }
+
+                .hirapic {
+                    height       : 40px;
+                    border-radius: 50%;
+                    position     : inherit;
+                    right        : -15px;
+                    top          : -18%;
+                }
+
+                .hira {
+                    font-weight: bold;
+                    position   : inherit;
+                    right      : 35px;
+                    top        : 50%;
+                }
+
+                @media screen and (max-width:890px) {
+                    .circle {
+                        right: 0px;
+                    }
+
+                    .ghanti {
+                        right: 40px;
+                    }
+
+                    .hirapic {
+                        right: 60px;
+                    }
+
+                    .hira {
+                        right: 90px;
+                    }
+                }
+
+                @media screen and (max-width:770px) {
+                    input {
+                        width: 100px;
+                    }
+
+                    .circle {
+                        right: 35px;
+                    }
+
+                    .ghanti {
+                        right: 70px;
+                    }
+
+                    .hirapic {
+                        right: 90px;
+                    }
+
+                    .hira {
+                        right: 120px;
+                    }
+                }
+            }
+
+        }
+
+        .fx-2 {
+            height          : 100%;
+            width           : 10%;
+            background-color: transparent;
+            position        : inherit;
+            bottom          : 0%;
+            left            : 0%;
+        }
+
+        .fx-3 {
+            background-color   : rgb(241, 241, 241);
+            height             : 87%;
+            width              : 525px;
+            position           : relative;
+            // top             : 12%;
+            // left            : 10%;
+            border-radius      : 3rem;
+            overflow           : hidden;
+
+            .fobox {
+                height   : 55%;
+                position : relative;
+                display  : flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                bottom: 280px;
+                .chibox {
+                    height: 200px;
+                    width : 200px;
+                    background-color: black;
+                    border-radius: 10%;
+                    margin: 5px;
+                    .boxdate {
+                        transform: translate(20px, 15px);
+                        color    : gray;
+                        font-size: 85%;
+                    }
+                    .flexitems {
+                        margin          : 5% 1%;
+                        width           : 190px;
+                        height          : 192px;
+                        border-radius   : 30px;
+                        background-color: blue;
+                    }
+        
+                    
+        
+                    .boxhead {
+                        font-weight   : bold;
+                        color         : rgb(61, 59, 59);
+                        width         : 100%;
+                        text-align    : center;
+                        transform     : translateY(40px);
+                        letter-spacing: 0vh;
+                    }
+
+                    .fa-ellipsis-v {
+                        transform: translate(165px, -130px);
+                    }
+    
+                    .info {
+                        font-weight   : 100;
+                        color         : rgb(126, 122, 122);
+                        width         : 100%;
+                        text-align    : center;
+                        transform     : translateY(50px);
+                        letter-spacing: 0vh;
+                    }
+    
+                    .progress {
+                        font-weight   : bold;
+                        color         : rgb(7, 6, 6);
+                        width         : 100%;
+                        text-align    : left;
+                        transform     : translate(10px, 60px);
+                        letter-spacing: 0vh;
+    
+                        .progresslines {
+                            display        : flex;
+                            justify-content: start;
+                            transform      : translate(1px, 6px);
+    
+                        }
+    
+                        .proline {
+                            width           : 3.50rem;
+                            height          : 0.2rem;
+                            background-color: rgb(255, 114, 20);
+                            content         : "";
+                            border-radius   : 12rem;
+                        }
+    
+                        .prolinetwo {
+                            width           : 4.50rem;
+                            height          : 0.2rem;
+                            background-color: rgb(255, 252, 250);
+                            content         : "";
+                            border-radius   : 12rem;
+                        }
+                    }
+
+                    .prodata {
+                        transform: translate(7.5rem, 1rem);
+                    }
+    
+                    .projectpeople {
+                        display        : flex;
+                        flex-wrap      : wrap;
+                        justify-content: left;
+                        transform      : translate(0.1rem, 0.2rem);
+                    }
+    
+                    .peopleinproject {
+                        width        : 1.15rem;
+                        height       : 1.15rem;
+                        border-radius: 50%;
+                    }
+    
+                    .fa-plus {
+                        width           : 1.15rem;
+                        height          : 1.15;
+                        padding         : 0.2rem;
+                        border-radius   : 50%;
+                        background-color: rgb(52, 185, 202);
+                        text-align      : center;
+                        transform       : translate(0.35rem, 0.1rem);
+                    }
+    
+                    .daysleft {
+                        transform       : translate(5.65rem, -1.40rem);
+                        
+                        color           : rgb(21, 168, 226);
+                        text-align      : center;
+                        background-color: rgb(190, 223, 236);
+                        width           : 5.05rem;
+                        border-radius   : 12rem;
+                        padding         : 0.2rem;
+                        display         : flex;
+                        flex-wrap       : wrap;
+                    }
+                }
+                .chibox1 {
+                    background-color: white;
+    
+                }
+    
+                .chibox2 {
+                    background-color: rgb(250, 220, 200);
+    
+                }
+    
+                .chibox3 {
+                    background-color: rgb(150, 230, 200);
+    
+                }
+    
+                .chibox4 {
+                    background-color: rgb(244, 157, 247);
+    
+                }
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .fx-3{
+                width: 276px;
+                height: 87%;
+            }
+
+            .maintag , .fx-1{
+                display: none;
+            }
+            .fx-4{
+                transform: translate(-21rem , 41rem);
+            }
+            .projectInfo {
+                width: 16rem;
+                justify-content: first baseline;
+            }
+            .fobox{
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+
+        }
+
+        @media screen and (max-width: 540px){
+            .fx-4{
+                transform: translate(-1rem , 1rem);
+            }
+        }
+
+        @media screen and (max-width: 380px){
+            .fx-4{
+                width: 10rem;
+                transform: translate(2rem , 1rem);
+            }
+        }
+             
+        .fx-4 {
+            height          : 87%;
+            width           : 30%;
+            top             : 12%;
+            right           : 0%;
+            
+            .clentmsg {
+                font-size      : 1.02rem;
+                display        : flex;
+                flex-wrap      : wrap;
+                justify-content: space-around;
+                width          : 15rem;
+                height         : 2.23rem;
+                transform      : translate(1.2rem, 1rem);
+                box-shadow     : 7.8px 7.8px rgb(190, 187, 187);
+            }
+        
+            .clentinfo {
+                display        : flex;
+                flex-wrap      : wrap;
+                flex-direction : column;
+                justify-content: center;
+            }
+        
+            .devidinfo {
+                font-size      : 14px;
+                display        : flex;
+                flex-wrap      : wrap;
+                justify-content: space-around;
+                width          : 22.67rem;
+                transform      : translate(-1.56rem, 2rem);
+            }
+        
+            .devidphotowithdata {
+                display        : flex;
+                transform      : translate(1rem, 2.26rem);
+                justify-content: space-between;
+                width          : 20.09rem;
+            }
+            .devidphoto {
+                width        : 2.5rem;
+                height       : 2.5rem;
+                border-radius: 50%;
+            }
+        
+            .devidquestion {
+                width: 12rem;
+            }
+        
+            .devidDate {
+                transform: translate(-5.56rem, 2.87rem);
+                color    : rgb(126, 122, 122);
+            }
+        
+        }
+    }
+
+    .navitems {
+        margin-left: 0%;
+    }
+
+    .manuitem {
+        display        : flex;
+        flex-wrap      : wrap;
+        flex-direction : column;
+        transform      : translate(-53rem, 1rem);
+        justify-content: space-between;
+        height         : 25rem;
+        width          : 0px;
+    }
+    @media screen and (max-width: 600px) {
+        .manuitem{
+            transform      : translate(-11rem, -3rem);
+        }
+    }
+
+    @media screen and (max-width: 540px){
+        .manuitem{
+           display: none;
+        }
+    }
+    .fa-home,
+    .fa-user,
+    .fa-comments-o,
+    .fa-calendar-check-o,
+    .fa-clock-o,
+    .fa-cog {
+        width          : 1.5rem;
+        height         : 1.4rem;
+        padding        : 0.52rem;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+
+    .fa-home:hover,
+    .fa-user:hover,
+    .fa-comments-o:hover,
+    .fa-calendar-check-o:hover,
+    .fa-clock-o:hover,
+    .fa-cog:hover {
+        transition      : 0.2s all;
+        background-color: rgb(255, 252, 250);
+        border-radius   : 50%;
+    }
+    
+    }
+
+    
